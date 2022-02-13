@@ -226,6 +226,14 @@ body{
     cursor: pointer;
 }
 
+.attribution{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+}
+
 @media(max-width: 56.62rem){
     .heading-title{ margin: 2rem 0;}
     .calculator_box{
