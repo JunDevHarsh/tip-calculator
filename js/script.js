@@ -75,10 +75,13 @@ function reset_all(){
     amount_num = people_num = custom_tip_val = 0;
     bill_amount.value = '';
     bill_amount.style.outline = '';
+    bill_amount.classList.remove('active');
     custom_tip.value = '';
     custom_tip.style.outline = '';
+    custom_tip.classList.remove('active');
     people_count.value = '';
     people_count.style.outline = '';
+    people_count.classList.remove('active');
     tip_amount.innerText = '$0.00';
     tip_total.innerText = '$0.00';
     for(let j of tip_btns){
