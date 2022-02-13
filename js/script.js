@@ -76,10 +76,11 @@ function reset_all(){
     bill_amount.value = '';
     bill_amount.style.outline = '';
     custom_tip.value = '';
-    custom_tip.style.ou
+    custom_tip.style.outline = '';
     people_count.value = '';
-    tip_amount.innerText = '';
-    tip_total.innerText = '';
+    people_count.style.outline = '';
+    tip_amount.innerText = '$0.00';
+    tip_total.innerText = '$0.00';
     for(let j of tip_btns){
         j.classList.remove('active');
     }
