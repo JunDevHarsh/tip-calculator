@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+
+  <section class="calculator_content">
+    <h1 class="heading-title">Spli<br>tter</h1>
+    <div class="calculator_box">
+      <div class="calculator_input">
+        <div class="calculator_bill_content">
+          <label for="bill-amount" class="label_amount_text">Bill</label>
+          <input type="text" class="bill_amount" id="bill-amount" placeholder="0" value="" />
+        </div>
+        <div class="calculator_tip_content">
+          <p class="tip_content_text">Select Tip %</p>
+          <div class="select_tip_content">
+            <button class="btn">5</button>
+            <button class="btn">10</button>
+            <button class="btn">15</button>
+            <button class="btn">25</button>
+            <button class="btn">50</button>
+            <input type="text" class="custom_id" id="custom-tip" value="" placeholder="Custom">
+          </div>
+        </div>
+        <div class="calculator_people_content">
+          <label for="people-count" class="label_count_text">Number of People</label>
+          <input type="text" class="people_count" id="people-count" value="" placeholder="0" >
+        </div>
+      </div>
+      <div class="calculator_output">
+        <div class="tip_amount_content">
+          <p class="tip_amount_text">Tip Amount</p>
+          <span class="tip_amount" id="tip-amount" ></span>
+        </div>
+        <div class="tip_total_content">
+          <p class="tip_total_text">Total</p>
+          <span class="tip_total" id="tip-total"></span>
+        </div>
+        <button class="reset_btn" id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/JunDevHarsh" target="_blank">Harshdeep Singh</a>.
+  </div>
+  <script src="./js/script.js"></script>
+  
+</body>
+</html>
